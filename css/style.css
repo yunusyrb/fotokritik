@@ -17,25 +17,123 @@ header{
 	height:50px;
 	width:100px;
 	float: left;
-	line-height: 50px;
+	padding-left: -20px;
 	text-align: center;
-	color: white;
+	background: #404040;
+}
+.menu ul li
+{
+    padding-top: 10px;
+    margin-left: -20px; 
+    float: left;
+    list-style: none;
+}
+.menu ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li:hover
+{
+    position: relative;
+}
+.menu ul li ul
+{
+    background: #404040;
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-top: 6px; /* padding-top 10px (menu ul li) */
+}
+.menu ul li ul li
+{
+	margin-left: -25px;
+}
+
+.menu ul li:hover ul
+{
+    display: block;
+    clear: both;
 }
 .menu:hover{
 	color: orange;
 	cursor: pointer;
 	transition: all 0.3s;
 }
-.menu:last-child{
-	width: 300px;
+.menu2{
+	height:50px;
+	width:100px;
+	float: left;
+	margin-left: 250px;
+	text-align: center;
+	background: #404040;
+}
+.menu2 ul li
+{
+    padding-top: 10px;
+    margin-left: -20px; 
+    float: left;
+    list-style: none;
+}
+.menu2 ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.menu2 ul li:hover
+{
+    position: relative;
+}
+.menu2 ul li ul
+{
+    background: #404040;
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-top: 6px; /* padding-top 10px (menu ul li) */
+}
+.menu2 ul li ul li
+{
+	margin-left: -25px;
+}
+.menu2 ul li:hover ul
+{
+    display: block;
+    clear: both;
+}
+.menu2:hover{
+	color: orange;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.menuu{
+	height:50px;
+	width:100px;
+	float: left;
+	margin-top: 25px;
+	text-align: center;
+	color: white;
 }
 
 .uyelik{
-	height: 50px;
-	width: 100px;
-	background-color: red; 
+	margin-top: 15px;
 	float: left;
-	margin-left: 150px;
+	margin-left: 7px; 
+	color:white;	
+}
+.cizgi{
+	color: white;
+	margin-top: 15px;
+	float: left;
+	margin-left: 7px;
+
+}
+.giris{
+	margin-top: 15px;
+	float: left;
+	color:white;
+	margin-left: 180px;	
 }
 .Fotograflar{
 	width:50px;
@@ -59,7 +157,7 @@ header{
 	height: 50px;
 	width: 200px;
 	float: right;
-	margin-right: 100px;
+	margin-right: 50px;
 }
 
 .arama-kutusu input[type="search"]{
